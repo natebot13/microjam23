@@ -8,7 +8,7 @@
 #include "bn_regular_bg_items_tmg_you_lose.h"
 #include "bn_regular_bg_items_tmg_you_win.h"
 
-MJ_GAME_LIST_ADD(tmg::test_game)
+// MJ_GAME_LIST_ADD(tmg::test_game)
 
 namespace tmg
 {

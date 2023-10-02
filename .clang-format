@@ -1,0 +1,31 @@
+---
+Language: Cpp
+# Google C++ Style Guide
+# https://google.github.io/styleguide/cppguide.html
+
+BasedOnStyle: Google
+
+# Indentation
+IndentWidth: 2
+UseTab: Never
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# Line Wrapping
+ColumnLimit: 100
+
+# Sorting
+SortIncludes: false
+
+# Include Style
+IncludeIsMainRegex: '(Test|_test|_unittest)'
+
+# Include blocks
+IncludeCategories:
+  - Regex: '^"(llvm|llvm-c|clang|clang-c)/'
+    Priority: 2
+  - Regex: '^(<|"(gtest|gmock|testing|cmath|cstdint|bitset|functional|vector|string|map|unordered_map|set|unordered_set|tuple|array|utility|algorithm|numeric|iosfwd|ios|istream|ostream|iostream|fstream|sstream|complex|valarray|random|numericlimits|cfloat|cstdio|limits|cerrno|clocale|csetjmp|csignal|cstdlib|cstring|ctime|cwchar|cwctype))'
+    Priority: 1
+  - Regex: '.*'
+    Priority: 3
