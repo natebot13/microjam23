@@ -8,9 +8,9 @@
 
 #include "bn_sprite_items_natebot13_spook_light.h"
 
-MJ_GAME_LIST_ADD(natebot13::spook)
+MJ_GAME_LIST_ADD(natebot13_spook::spook)
 
-namespace natebot13 {
+namespace natebot13_spook {
 
 bn::fixed normalize_angle(bn::fixed angle) {
   return angle = angle > 1 ? angle - 1 : angle < 0 ? 1 - angle : angle;

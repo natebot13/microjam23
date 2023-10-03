@@ -9,7 +9,7 @@
 
 #include "mj/mj_game.h"
 
-namespace natebot13 {
+namespace natebot13_spook {
 
 class person {
  public:
